@@ -1,0 +1,57 @@
+*
+{
+    margin: 0px;
+    
+    padding: 0px;
+}
+
+.logohead
+{
+    display: inline-block;
+    
+    border-right: 1px solid lightgray;
+    
+    padding-right: 2.3em;
+}
+
+.links
+{
+    color: white;
+    
+    transition: all .3s ease-in;
+    
+    font-family: 'Roboto', sans-serif;
+    
+    padding: .8em;
+    
+    display: inline-block;
+    
+    margin-left: 1%;
+}
+
+.links:hover
+{
+    color: lightgray;
+}
+
+.navgation
+{   
+    background-color: #33414a;
+    
+    width: 100%;
+    
+    display: flex;
+    
+    align-items: center;
+    
+    position: fixed;
+}
+
+@font-face
+{
+    font-family: wsu;
+    
+    src: url(weblysleekuil.ttf);
+    
+    font-weight: 100;
+}
