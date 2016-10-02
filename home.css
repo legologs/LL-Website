@@ -2,8 +2,6 @@
 {
     background-image: ;
     
-    background-color: rgba(25, 161, 151, 0.3);
-    
     background:         
         linear-gradient(
             rgba(31,174,206, 0.5), 
@@ -86,4 +84,122 @@
     text-align: center;
     
     font-family: wsu;
+}
+
+#easy-text
+{
+    font-family: wsu;
+    
+    font-size: 100%;
+    
+    line-height: 1.5;
+}
+
+#easy-icon
+{
+    display: inline-flex;
+    
+    color: rgb(31,174,206);
+    
+    font-size: 250%
+}
+
+#easy-title
+{
+    display: inline-flex;
+    
+    font-family: wsu;
+    
+    font-size: 200%;
+    
+    vertical-align: top;
+}
+
+#open-icon
+{
+    display: inline-flex;
+    
+    color: rgb(31,174,206);
+    
+    font-size: 250%
+}
+
+.sec1
+{
+    display: inline-flex;
+    
+    width: 25%;
+    
+    margin-left: 10%;
+}
+
+.sec2
+{
+    display: inline-flex;
+    
+    width: 25%;
+    
+    float: right;
+    
+    margin-right: 10%;
+}
+
+footer
+{
+    background-color: #2a2b2e;
+    
+    color: white;
+    
+    margin-top: 5%;
+}
+
+.footer-image
+{
+    width: 10%;
+    
+    margin: 1.5%;
+}
+
+.cell
+{
+    color: white;
+    
+    transition: all .3s ease-in;
+    
+    font-family: 'Roboto', sans-serif;
+    
+    padding: .8em;
+    
+    margin-left: 1%;
+    
+    cursor: pointer;
+    
+    letter-spacing: 1px
+}
+
+.cell:hover
+{
+    color: lightgray;
+}
+
+.shortcuts
+{
+    text-align: center;
+    
+    margin-left: auto;
+    
+    margin-right: auto;
+    
+    border-collapse: collapse;
+}
+
+.copyright
+{
+    text-align: center;
+    
+    margin-top: 3%;
+    
+    font-family: 'Roboto', sans-serif;
+    
+    padding-bottom: 0.5%;
 }
