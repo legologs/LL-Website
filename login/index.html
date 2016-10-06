@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>LegoLogs | Login</title>
+        <link rel="stylesheet" type="text/css" href="login.css">
+        <link rel="stylesheet" type="text/css" href="../../common.css">
+        <script src="actions.js"></script>
+    </head>
+    <body>
+        <img class="logo" src="../../footer-logo.png">
+        <div class="logosub">
+            Join the LegoLogs community now
+        </div>
+        <div class="content">
+            <div class="content-header">
+                Sign Up
+            </div>
+            <div class="content-details">
+                <input id="un" placeholder="Username" class="inputfield" type="text">
+                <input id="pw" placeholder="Passsword" class="inputfield" type="password">
+            </div>
+            <div class="content-submitbutton" onclick="handle( );">
+                Sign Up
+            </div>
+            <img id="spinner" class="content-loading" src="spinner.gif">
+        </div>
+        <div class="subcontent">
+            <p id="errorsec" class="subcontent-error">
+            </p>
+        </div>
+    </body>
+</html>

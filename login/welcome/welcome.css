@@ -1,0 +1,118 @@
+html
+{
+    background-color: #9398EC;
+}
+
+@font-face
+{
+    font-family: p;
+    
+    src: url(../pn.woff);
+}
+
+.logo
+{
+    display: block;
+    
+    margin-left: auto;
+    
+    margin-right: auto;
+    
+    margin-top: 2%;
+}
+
+.content
+{
+    background-color: white;
+    
+    margin-top: 5%;
+    
+    display: block;
+    
+    margin-left: auto;
+    
+    margin-right: auto;
+    
+    border: 2px solid white;
+    
+    border-radius: 5px;
+    
+    padding-top: 2%;
+    
+    width: 10%;
+    
+    padding-left: 8%;
+    
+    padding-right: 8%;
+    
+    padding-bottom: 1%;
+}
+
+.logosub
+{
+    color: white;
+    
+    font-family: 'Roboto', sans-serif;
+    
+    font-size: 150%;
+    
+    text-align: center;
+    
+    margin-top: .5%;
+}
+
+.content-header
+{
+    font-family: p;
+    
+    font-size: 200%;
+    
+    text-align: center;
+}
+
+.content-maintext
+{
+    text-align: center;
+    
+    font-family: 'Roboto', sans-serif;
+    
+    margin-top: 10%;
+}
+
+.content-start
+{
+    font-family: p;
+    
+    text-align: center;
+    
+    margin-top: 20%;
+    
+    background-color: #7277D5;
+    
+    border: 1px solid #7277D5;
+    
+    color: white;
+    
+    border-radius: 5px;
+    
+    padding-top: 7%;
+    
+    padding-bottom: 7%;
+    
+    padding-left: 23%;
+    
+    padding-right: 30%;
+    
+    font-size: 120%;
+    
+    cursor: pointer;
+    
+    transition: all .2s ease-in;
+}
+
+.content-start:hover
+{
+    background-color: #9398EC;
+    
+    border-color: #9398EC;
+}
